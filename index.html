@@ -3,10 +3,51 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Vue.js sunjiahui</title>
+    <title>Vue.js</title>
   </head>
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <div class="hero">
+    <div class="inner">
+      <div class="left"><img class="hero-logo" src="https://cn.vuejs.org/images/logo.png" alt=""></div>
+      <div class="right"><h1>渐进式<br>JavaScript框架</h1></div>
+    </div>
+    </div>
   </body>
 </html>
+<style scoped>
+  .hero{
+    display: block;
+    width: 1705px;
+    height: 350px;
+    padding:40px
+  }
+  .inner{
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    
+  }
+  .left{
+    display: inline-block;
+    width: 550px;
+    height: 215px;
+  }
+  .hero-logo{
+    width: 215px;
+    height: 215px;
+    margin-right: 60px;
+    padding-left: 3000px;
+    float: right;
+  }
+  .right{
+    display: inline-block;
+    width: 630px;
+    height: 250px;
+    vertical-align: top;
+    font-weight: 300;
+    margin: 0;
+    font-size: 1.2em;
+  }
+</style>
